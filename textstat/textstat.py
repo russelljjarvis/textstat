@@ -325,6 +325,5 @@ class textstatistics:
         if float_output:
             return score
         else:
-            return str(int(score)-1) + "th " + "and " + str(int(score)) + "th grade"
-
+            return int(score)
 textstat = textstatistics()
